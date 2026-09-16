@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Background circle with dark slate/charcoal wash -->
+  <circle cx="50" cy="50" r="48" fill="#121317" stroke="#C5A059" stroke-width="2"/>
+  
+  <!-- Subtle celestial stars -->
+  <circle cx="28" cy="24" r="1.2" fill="#E6C687" opacity="0.8"/>
+  <circle cx="74" cy="22" r="1" fill="#E6C687" opacity="0.8"/>
+  <circle cx="78" cy="74" r="1.2" fill="#E6C687" opacity="0.8"/>
+  <circle cx="22" cy="72" r="1" fill="#E6C687" opacity="0.8"/>
+  
+  <!-- Radiating Sun Rays -->
+  <g stroke="#C5A059" stroke-width="1.8" stroke-linecap="round" opacity="0.95">
+    <!-- Straight primary cardinal rays -->
+    <line x1="50" y1="12" x2="50" y2="20" />
+    <line x1="50" y1="80" x2="50" y2="88" />
+    <line x1="12" y1="50" x2="20" y2="50" />
+    <line x1="80" y1="50" x2="88" y2="50" />
+    <!-- Diagonal rays -->
+    <line x1="23" y1="23" x2="29" y2="29" />
+    <line x1="71" y1="71" x2="77" y2="77" />
+    <line x1="77" y1="23" x2="71" y2="29" />
+    <line x1="29" y1="71" x2="23" y2="77" />
+    <!-- Flamed wavy secondary rays -->
+    <path d="M50 14 Q53 20 50 25" stroke="#E6C687" stroke-width="1.5" fill="none" />
+    <path d="M86 50 Q80 53 75 50" stroke="#E6C687" stroke-width="1.5" fill="none" />
+    <path d="M50 86 Q47 80 50 75" stroke="#E6C687" stroke-width="1.5" fill="none" />
+    <path d="M14 50 Q20 47 25 50" stroke="#E6C687" stroke-width="1.5" fill="none" />
+    <path d="M75 25 Q70 30 68 33" stroke="#E6C687" stroke-width="1.2" fill="none" />
+    <path d="M75 75 Q70 70 68 67" stroke="#E6C687" stroke-width="1.2" fill="none" />
+    <path d="M25 75 Q30 70 32 67" stroke="#E6C687" stroke-width="1.2" fill="none" />
+    <path d="M25 25 Q30 30 32 33" stroke="#E6C687" stroke-width="1.2" fill="none" />
+  </g>
+
+  <!-- Central Sun Disc -->
+  <circle cx="50" cy="50" r="18" fill="#1C1E26" stroke="#C5A059" stroke-width="1.5"/>
+
+  <!-- Crescent Moon Embracing the Sun -->
+  <path d="M 44 32 A 18 18 0 0 1 56 68 A 19.5 19.5 0 1 0 44 32 Z" 
+        fill="#C5A059" opacity="0.9" />
+  
+  <!-- Subtle Moon texture dot -->
+  <circle cx="42" cy="48" r="1.5" fill="#1C1E26" opacity="0.6"/>
+  <circle cx="39" cy="42" r="1" fill="#1C1E26" opacity="0.6"/>
+  <circle cx="41" cy="55" r="1.2" fill="#1C1E26" opacity="0.6"/>
+</svg>
