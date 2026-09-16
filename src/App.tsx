@@ -357,6 +357,18 @@ const AppContent: React.FC = () => {
           <p className="text-[11px] text-foreground-muted font-sans">
             © {new Date().getFullYear()} Arte Polo • Taller de Encuadernación Artesanal. Todos los derechos reservados.
           </p>
+          <p className="text-[11px] text-foreground-muted font-sans mt-2">
+            Desarrollado por{' '}
+            <a
+              href="https://portafolio-joaquinsperatti.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline font-semibold text-foreground hover:text-[var(--gold)] transition-colors underline-offset-4"
+            >
+              JOAQUÍN SPERATTI
+            </a>
+            .
+          </p>
         </div>
       </footer>
 
