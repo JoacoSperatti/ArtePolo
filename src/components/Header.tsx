@@ -3,7 +3,7 @@ import { ShoppingBag, Menu, Moon, Sun, X, Sparkles } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useTheme } from '../context/ThemeContext';
 import { motion, AnimatePresence } from 'framer-motion';
-import logoUrl from '../assets/logo.jpg';
+import logoUrl from '../assets/logo.jpeg';
 
 const Header: React.FC = () => {
   const { cart, setIsCartOpen } = useCart();

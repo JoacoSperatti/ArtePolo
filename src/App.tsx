@@ -8,7 +8,7 @@ import { ThemeProvider } from './context/ThemeContext';
 import { mockProducts } from './data/mockData';
 import { motion } from 'framer-motion';
 import { Sparkles, Compass, Feather, BookOpen, Sun, Moon, ShieldCheck, Heart } from 'lucide-react';
-import logoUrl from './assets/logo.jpg';
+import logoUrl from './assets/logo.jpeg';
 
 const AppContent: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('Todos');
